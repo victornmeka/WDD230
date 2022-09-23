@@ -28,10 +28,10 @@ header {
 
 }
 header h1 {
-    color: white;
+    color: black;
     transform: translate(30%, 40%);
     font-size: 2.5em;
-    text-shadow:2px 2px black;
+    text-shadow:2px 2px none;
 }
 
 
