@@ -98,6 +98,12 @@ footer p {
     main {
         background-color: white;
     }
+    header h1{
+        color:black;
+        transform: translate(15%, 40%);
+        font-size: 1.5em;
+        text-shadow: 2px 2px none;
+    }
 
     
 
