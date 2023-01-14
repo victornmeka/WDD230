@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@media only screen and (min-width:50em){
+    body {
+        margin:  auto;
+        padding-top: 10px;
+        line-height: 2em;
+        background-color: lightblue;
+        max-width:80%;
+    
+        
+    }
+    
+    header{
+        display: block;
+        background-color:rgb(0,71,100,0.9);
+        border-radius:20px;
+        border: solid 0.5px lightblue;
+        box-shadow: 5px 5px 5px 5px #999;
+        text-align:center;
+        height:150px;
+        width:100%;
+        margin-bottom: 5%;
+        
+    }
+    
+     header h1{
+        color:white;
+        font-size: 2.5em;
+        text-shadow: 2px 2px none;
+     }
+    
+    
+    main{
+        background-color: white;
+        padding-bottom: 15px;
+        padding-top: 15px;
+
+    }
+    
+    #container-1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    
+    }
+    .design-principle{
+        max-width: 260px;
+        box-shadow: 5px 5px 5px 5px #999;
+        border: solid 0.5px black;   
+        border-radius: 5px; 
+        text-align: center;
+        
+    }
+    .design-principle img{
+        width: 247px;
+        margin:auto;
+    }
+    
+    .design-principle h2 {
+        font-size:2em;
+        padding-top:5px;
+        padding-left: 15px;
+        
+    }
+    
+    .button{
+        transform:translate(0%, -100%)
+    }
+    .button a{
+        text-decoration: none;
+       
+    }
+    .button a:hover{
+        background-color: red;
+        color:#fff
+    }
+    
+    .design-principle p {
+        font-size:1em;
+        padding-top: 5%;
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+    
+    }
+    
+    
+    footer {
+        background-color: rgb(157, 210, 231,0.8);
+        color: black;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+        border: 1px solid white;
+        box-shadow: 5px 5px 5px 5px #999;
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    footer p{
+        font-size: 22px;
+        
+    }
+    
+    .paragraph-2{
+        color:green;
+    }
+    
+
+
+}
