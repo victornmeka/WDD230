@@ -110,6 +110,11 @@ h3 {
 p{
     font-family: 'Kurale', 'Times New Roman', Times, serif;
 }
+main section div img{
+    width: 20%;
+    height: 30%;
+    background-size: 20%;
+}
 table {
     font-family: 'Kurale', sans-serif;
     border-collapse: collapse;
