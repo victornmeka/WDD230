@@ -87,6 +87,9 @@ footer p {
 .paragraph-2 {
     color: green;
 }
+footer #date,#time{
+    color: #fff;
+}
 
 @media screen and (max-width: 900px) {
     body {
