@@ -1,0 +1,233 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.header-nav {
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0.5rem 1rem;
+}
+
+nav {
+    grid-column: 4;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, transparent, black, transparent) bottom / var(--d, 0) 3px no-repeat;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(22, 65, 80, 0.3);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#navigation-button span:nth-child(1) {
+    display: block;
+}
+
+#navigation-button span:nth-child(2) {
+    display: none;
+}
+
+#navigation-button.open span:nth-child(1) {
+    display: none;
+}
+
+#navigation-button.open span:nth-child(2) {
+    display: block;
+}
+
+.logo {
+    grid-row: 1/3;
+    width: 150px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-logo {
+    border-radius: 30px;
+    width: 40px;
+    padding: 8px;
+}
+
+.social-logo:hover {
+    background-color: rgb(22, 65, 80);
+    color: white;
+}
+
+.social {
+    place-self: center;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+header {
+    background-color: yellow;
+}
+
+#header-fulldate {
+    background-color: rgba(255, 255, 0, 0.25);
+    color: black;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    grid-column: 1/8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1px;
+    padding: 0px;
+    margin: 10px 10px 80px 10px;
+    font-size: .7rem;
+
+}
+
+main .hero {
+    grid-row: 1;
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+}
+
+
+
+main .news-release {
+    grid-row: 4;
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+}
+
+#spotlight-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid rgb(22, 65, 80);
+    margin-bottom: 20px;
+
+}
+
+#spotlight-section .spotlight1 {
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+    margin: 15px 20px 10px 20px;
+}
+
+#spotlight-section .spotlight2 {
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+    margin: 0px 20px 10px 20px;
+}
+
+#spotlight-section .spotlight3 {
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+    margin: 0px 20px 10px 20px;
+    display: none;
+}
+
+main .join {
+    display: none;
+}
+
+main .event {
+    grid-row: 2;
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+}
+
+main .weather {
+    grid-row: 3;
+    border: 1px solid rgb(22, 65, 80);
+    padding: 50px;
+}
+
+
+footer {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: .8em;
+}
+
+.footer-logo {
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+}
+
+footer img {
+    height: 150px;
+
+}
+
+
+.location a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: .8em;
+}
+
+.footer2 {
+    border-top: 1px solid black;
+    padding-top: .8em;
+}
+
+.footer2 p {
+    margin: 0;
+}

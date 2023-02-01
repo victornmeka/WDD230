@@ -1,109 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 body {
-    width: 100%;
-    margin:  auto;
-    padding-top: 10px;
-    line-height: 2em;
-    background-color: lightblue;
-    display: block;
-    font-size:16px;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  line-height: 2em;
+  background-color: lightblue;
+  display: block;
+  font-size: 16px;
 }
 
-header{
-    display: block;
-    background-color:rgb(0,71,100,0.9);
-    border-radius:5px;
-    border: solid 0.5px lightblue;
-    box-shadow: 2px 2px 2px 2px #999;
-    text-align:center;
-    max-width:760px;
-    margin:1.25em;
-
-    
+header {
+  display: block;
+  background-color: rgb(0, 71, 100, 0.9);
+  border-radius: 5px;
+  border: solid 0.5px lightblue;
+  box-shadow: 2px 2px 2px 2px #999;
+  text-align: center;
+  max-width: 760px;
+  margin: 1.25em;
 }
-header h1{
-    color:white;
-    font-size: 1.5em;
-    text-align:center;
+header h1 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-main{
-    background-color: white;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    max-width:760px;
-    margin:0.5em;
-    
+main {
+  background-color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  max-width: 760px;
+  margin: 0.5em;
 }
 
-#container-1{
-    display:grid;
-    grid-gap: 1.5em;
-    justify-items: center;
-    
+#container-1 {
+  display: grid;
+  grid-gap: 1fr;
+  justify-items: center;
 }
 
-.design-principle{
-    max-width: 300px;
-    box-shadow: 5px 5px 5px 5px #999;
-    border: solid 0.5px black;   
-    border-radius: 5px; 
-    text-align: center;
+.design-principle {
+  max-width: 300px;
+  box-shadow: 5px 5px 5px 5px #999;
+  border: solid 0.5px black;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.design-principle img{
-    width: 280px;
-    height:200px;
-    margin:auto;
+.design-principle img {
+  width: 280px;
+  height: 200px;
+  margin: auto;
 }
 
 .design-principle h2 {
-    font-size:1.5em;
-    padding-top:5px;
-    padding-left: 15px;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-left: 15px;
 }
 
-.button{
-        transform:translate(0%, -100%)
-    }
-    .button a{
-        text-decoration: none;
-    
-    }
-    .button a:hover{
-        background-color: red;
-        color:#fff
-    }
+.button {
+  transform: translate(0%, -100%);
+}
+.button a {
+  text-decoration: none;
+}
+.button a:hover {
+  background-color: red;
+  color: #fff;
+}
 
-    .design-principle p {
-        font-size:1em;
-        padding-top: 5%;
-        font-size: 18px;
-        font-family: 'Merriweather', serif;
+.design-principle p {
+  font-size: 1em;
+  padding-top: 5%;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
 
-    }
+footer {
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px 5px #999;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 
+footer p {
+  font-size: 22px;
+}
 
-    footer{
-        background-color:lightblue;
-        text-align: center;
-        padding-top:5px;
-        font-size: 20px;
-        border: 1px solid white;
-        box-shadow: 5px 5px 5px 5px #999;
-        border-radius: 20px;
-        margin-top: 30px;
-        margin-bottom:50px;
-    }
-
-    footer p{
-        font-size: 22px;
-        
-    }
-
-    .paragraph-2{
-        color:green;
-    }
-
-
-
+.paragraph-2 {
+  color: green;
+}
+#date,
+#time {
+  color: black;
+}
