@@ -77,7 +77,7 @@
     main .weather {
         grid-row: 5;
         grid-column: 1.8/3;
-        padding: 50px;
+        padding: 25px;
         margin-left: 3px;
     }
 

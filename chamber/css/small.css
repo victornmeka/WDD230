@@ -335,6 +335,16 @@ footer img {
     --d: 75%;
 }
 
+#spotlight-section .spotlight2 img {
+    width: 70%;
+    height: 50%;
+}
+
+#spotlight-section .spotlight1 img {
+    width: 70%;
+    height: 50%;
+}
+
 /*fonts*/
 main p {
     text-align: center;
