@@ -13,3 +13,10 @@ const options = {year: 'numeric'}
 document.getElementById('year').textContent = new Date().toLocaleDateString('en-us', options)
 const date = new Date(document.lastModified);
 document.getElementById('date').textContent = date;
+
+if (new Date().getDay() == 1 || new Date().getDay() == 2){
+    document.querySelector(".banner").classList.toggle("banner-shown");
+  
+    document.querySelector(".banner-close").addEventListener('click', function() {
+    this.closest(".banner").style.display = "none";})
+}
