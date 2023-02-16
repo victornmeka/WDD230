@@ -6,15 +6,16 @@ function toggleMenu(){
 const switchToX = document.getElementById("navigation-button");
 switchToX.onclick = toggleMenu;
 
-const dateformat = new Intl.DateTimeFormat("en-UK",{dateStyle: "full"}).format(new Date);
+const todaysDate = new Date();
+const dateformat = new Intl.DateTimeFormat("en-UK",{dateStyle: "full"}).format(todaysDate);
 document.querySelector("#header-fulldate").innerHTML = dateformat;
 
 const options = {year: 'numeric'}
-document.getElementById('year').textContent = new Date().toLocaleDateString('en-us', options)
-const date = new Date(document.lastModified);
+document.getElementById('year').textContent = todaysDate.toLocaleDateString('en-us', options)
+const date = document.lastModified;
 document.getElementById('date').textContent = date;
 
-if (new Date().getDay() == 1 || new Date().getDay() == 2){
+if (todaysDate.getDay() == 1 || todaysDate.getDay() == 3){
     document.querySelector(".banner").classList.toggle("banner-shown");
   
     document.querySelector(".banner-close").addEventListener('click', function() {

@@ -202,9 +202,14 @@ main .weather {
     background-color: yellow;
 }
 
+main .weather {
+    width: auto;
+}
+
 main .weather img {
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
+    margin-left: 35%;
 }
 
 footer {
@@ -287,7 +292,12 @@ footer img {
 }
 
 
-.hero img {
+main section picture.hero-image {
+    width: 50%;
+
+}
+
+main section picture.hero-image img {
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -296,10 +306,11 @@ footer img {
 .hero h1 {
     z-index: 2;
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 10%;
+    left: 15%;
     font-family: 'Kurale', Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
+    font-size: 4rem;
 
 }
 

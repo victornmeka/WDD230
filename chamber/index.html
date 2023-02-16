@@ -76,7 +76,11 @@
         <!-- CONTENT HERE -->
         <main>
             <section class="hero">
-                <img src="./images/long-corridor-showcase.jpg" alt="A hero image ">
+                <picture class="hero-image">
+                    <source srcset="images/wdd230-org-assets/largeimg.jpg" media="(min-width: 1028px)">
+                    <source srcset="images/wdd230-org-assets/mediumimg.jpg" media="(min-width: 560px)">
+                    <img src="images/wdd230-org-assets/smallimg.jpg" alt="hero-image">
+                </picture>
                 <h1>Welcome To Eko </h1>
                 <div class="joinButton"><a href="#">Join The Chamber</a></div>
             </section>
@@ -87,7 +91,19 @@
                     1:00p.m.<span><a href="#" target="blank"> more
                             details...</a></span></p>
             </section>
-            <div class="weather"><img src="images/weaather-img.jpg" alt="weather placeholder"></div>
+            <div class="weather">
+                <h2>Weather</h2>
+                <img src="images/cloud.jpg" alt="cloud icon">
+                <h3 class="temp"><span id="temp-value">45</span>&#xb0;F</h3>
+                <p id="weather-condition">Partly Cloudy</p>
+                <hr>
+                <div>
+                    <p class="windspeed">Wind Speed: <span id="windspeed-value">4</span> mph</p>
+                    <p class="wind-chill">Wind Chill: <span id="windchill"></span><span id="windchillValue"></span>
+                    </p>
+                </div>
+            </div>
+
             <section class="news-release">
                 <h2>News Release</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam eligendi quod consectetur! Fuga
@@ -151,6 +167,7 @@
         </footer>
 
         <script src="./scripts/script.js"></script>
+        <script src="./scripts/windchill.js"></script>
     </body>
 
 </html>
