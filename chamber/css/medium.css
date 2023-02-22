@@ -129,4 +129,9 @@
         margin: auto;
         padding: 15px 20px;
     }
+
+    .discover-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

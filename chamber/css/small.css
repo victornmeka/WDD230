@@ -356,6 +356,21 @@ main section picture.hero-image img {
     height: 50%;
 }
 
+/*Discover Page*/
+main.discover-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10%;
+
+    padding-bottom: 0px;
+
+}
+
+.discover-img:hover {
+    box-shadow: 7px 7px 7px rgba(22, 65, 80, 0.9);
+}
+
 /*fonts*/
 main p {
     text-align: center;
