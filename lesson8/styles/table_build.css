@@ -1,0 +1,90 @@
+.main-caption {
+
+    padding: 30px;
+
+    font-size: 1.5rem;
+
+    font-weight: bolder;
+
+    background-color: black;
+
+    color: #fff;
+
+}
+
+table {
+    font-family: sans-serif;
+
+    width: 70%;
+
+    border: 1px solid gray;
+
+    margin: 10% auto;
+
+    border-collapse: collapse;
+
+    caption-side: top;
+    margin-bottom: 0px;
+
+}
+
+td,
+th {
+
+    border: 1px solid rgb(5, 5, 5);
+
+}
+
+
+
+.cancel {
+    text-align: center;
+}
+
+.check {
+
+    color: rgb(39, 3, 84);
+
+    text-align: center;
+
+}
+
+.row-heading {
+
+    font-weight: bolder;
+
+    padding: 8px;
+
+}
+
+.t-heading {
+
+    font-size: 1.3rem;
+
+    padding: 10px;
+
+    background-color: #5a5a5a;
+
+    color: #fff;
+
+}
+
+
+tbody tr:nth-child(even) {
+
+    background-color: rgba(230, 230, 229, 0.9);
+
+}
+
+#empty {
+    background-color: #000000;
+}
+
+.t-caption {
+
+    margin-top: 0px;
+    padding: 0px;
+
+    text-align: center;
+
+}
