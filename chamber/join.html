@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join</title>
+
+        <link rel="icon" href="hp-favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Kurale&display=swap" rel="stylesheet">
+
+
+
+
+        <!-- STYLE SHEETS -->
+        <link href="css/normalize.css" rel="stylesheet">
+        <!-- phone-default -->
+        <link href="css/small.css" rel="stylesheet">
+        <!-- enhance-tablet -->
+        <link href="css/medium.css" rel="stylesheet">
+        <!-- enhance-desktop -->
+        <link href="css/large.css" rel="stylesheet">
+
+
+
+    </head>
+
+    <body>
+        <!-- HEADER HERE -->
+        <header>
+
+            <div class="banner">
+                <div class="banner-box">
+                    <div class="banner-text">Come join us for the Chamber Meet and Greet every Wednesday at 7:00 p.m.
+                    </div>
+                    <button class="banner-close" type="button">
+                        close
+                    </button>
+                </div>
+            </div>
+
+            <div class=" header-nav">
+                <a href="index.html"><img class="logo" src="./images/ecoc.png" alt="Logo for Eko Chambers
+                of Commerce"></a>
+                <div class="company-name">
+                    <h2>Eko</h2>
+                    <p>Chambers of Commerce</p>
+                </div>
+                <div id="header-fulldate"></div>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img class="social-logo" src="./images/Facebook_Logo.png" alt="A facebook Logo">
+                    </a>
+                    <a href="https://www.linkedin.com/login" target="_blank">
+                        <img class="social-logo" src="./images/linkedin_logo.png" alt="A linkedin logo">
+                    </a>
+                </div>
+                <!-- NAVIGATION HERE -->
+                <nav>
+                    <button id="navigation-button"><span>&#8801;</span><span>x</span></button>
+                    <ul id="nav-list">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="main-join-area">
+            <h1 class="text">Join Eko Chambers Today!</h1>
+            <p class="text">
+                Eko Chambers is much more fun and interesting when you join.The more Merrier!!!
+                <br>Join today and get a special discount.
+            </p>
+            <form class="text join-form" method="GET" action="thankyou.html">
+                <fieldset>
+                    <legend>Basic Information</legend>
+                    <label class="block-text">First Name<span class="asterik">*</span>
+                        <input class="block-input" type="text" name="fname" required></label>
+                    <label class="block-text">Last Name<span class="asterik">*</span>
+                        <input class="block-input" type="text" name="lname" required></label>
+                    <label class="block-text">Business Position
+                        <input class="block-input" type="text" name="Position"
+                            title="Can only include alpha characters, hyphens, and spaces and must contain a minimum of 7 characters"
+                            pattern="[A-Za-z -]{7,}"></label>
+                    <label class="block-text">Email<span class="asterik">*</span>
+                        <input placeholder="example@email.com" class="block-input" type="email" name="email"
+                            required></label>
+                    <label class="block-text">Telephone<span class="asterik">*</span>
+                        <input class="block-input" type="tel" name="phone" required></label>
+                    <label class="block-text">Business Name/Title<span class="asterik">*</span>
+                        <input class="block-input" name="business" type="text" required></label>
+                </fieldset>
+                <div class="membership-plan">
+                    <h3>Gold : 50000 Naira per year</h3>
+                    <ul>
+                        <li>Discounted Yearly Vacation/Country Tour.</li>
+                        <li>Free Access to all Eko Chambers Event.</li>
+                        <li>Annual hangout with the Founders of Eko Chambers</li>
+                        <li>Plus, everything available in the Silver Level</li>
+                    </ul>
+
+                    <h3>Silver : 35000 Naira per year</h3>
+                    <ul>
+                        <li>
+                            Free Monthly Trainings for both employers and employees to improve
+                            marketing and grow your business
+                        </li>
+                        <li>Advertising on the Eko Chamber website</li>
+                        <li>Plus, everything available in the Bronze Membership level</li>
+                    </ul>
+
+                    <h3>Bronze Membership: 25000 Naira per year</h3>
+                    <ul>
+                        <li>20% Discount on all Business Trainings</li>
+                        <li>Attend our Weekly Meet andGreets(with lots Refreshments) for free.</li>
+                        <li>Membership certificate</li>
+                        <li>Plus, everything available in the NP Membership level</li>
+                    </ul>
+
+                    <h3>NP(Non-Profit) Membership: Free</h3>
+                    <ul>
+                        <li>
+                            Notifications on all upcoming events.
+                        </li>
+                        <li>10% Disount on our Bi-annual celebration event. </li>
+                        <li>Access to an Eko Chambers website portal.</li>
+                    </ul>
+                </div>
+
+                <fieldset>
+                    <legend>Membership</legend>
+                    <div>Membership Level</div>
+                    <label class="block-radio"><input type="radio" name="membership" value="np"> NP Membership</label>
+                    <label class="block-radio"><input type="radio" name="membership" value="bronze"> Bronze
+                        Membership</label>
+                    <label class="block-radio"><input type="radio" name="membership" value="silver"> Silver
+                        Membership</label>
+                    <label class="block-radio"><input type="radio" name="membership" value="gold"> Gold
+                        Membership</label>
+                </fieldset>
+                <label class="block-text">
+                    Business Description
+                    <textarea id="description" class="block-input"></textarea>
+                </label>
+                <input type="hidden" value="curdateandtime" id="curtime">
+                <input class="join-btn" type="submit" value="Join The Chamber">
+
+            </form>
+        </div>
+
+        <footer>
+            <div class="footer1">
+                <div class="footer-logo">
+                    <img src="images/ecoc.png" alt="footer logo">
+                </div>
+                <div class="footer-name">
+                    <h3>Eko Chamber
+                        of Commerce</h3>
+                    <p>20 Street Address Lagos,Nigeria</p>
+                </div>
+                <div class="info">
+                    <div class="contact-info">info@ecoc.org</div>
+                    <div class="contact-info">(+234) 9133-9900</div>
+                    <!-- location map:-->
+                    <div class="location">
+                        <a href="#" target="blank">📍 Location Map</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer2">
+                <p>&copy;<span id="year"></span> Eko Chamber</p>
+                <p>Victor Nmeka</p>
+                <p>WDD 230 Project</p>
+                <div>
+                    <p>Last Modification: <span id="date"></span></p>
+                </div>
+            </div>
+        </footer>
+        <script src="./scripts/script.js"></script>
+        <script src="../lesson-7/scripts/main.js"></script>
+    </body>
+
+</html>

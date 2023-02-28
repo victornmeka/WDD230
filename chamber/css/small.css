@@ -371,6 +371,124 @@ main.discover-main {
     box-shadow: 7px 7px 7px rgba(22, 65, 80, 0.9);
 }
 
+/* Join page */
+.join-h1 {
+    text-align: center;
+}
+
+.membership-div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.membership-div {
+    padding: 2rem;
+}
+
+/* --------FORM---- */
+
+/* Join Page*/
+
+.text {
+    margin-left: 5%;
+}
+
+text span#orange {
+    color: yellow;
+}
+
+.main-join-area {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+
+form {
+    animation-name: slideup;
+    animation-duration: 0.5s;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 90vw;
+    box-shadow: 0 0 4px grey;
+}
+
+.asterik {
+    color: red;
+    font-weight: bolder;
+}
+
+fieldset {
+    border-radius: 3px;
+    border: 1px solid #042b42;
+    width: 83vw;
+    margin-bottom: 2rem;
+}
+
+legend {
+    padding: 0.4rem;
+    font-weight: bolder;
+}
+
+.block-text,
+.block-input {
+    display: block;
+}
+
+label {
+    height: 5rem;
+}
+
+.block-radio {
+    display: block;
+    height: min-content;
+    padding: 10px;
+}
+
+.block-input {
+    background-color: rgba(177, 177, 177, 0.199);
+    width: 98%;
+    border: none;
+    min-height: 2.5rem;
+    border-bottom: 2px solid yellow;
+}
+
+.block-input:focus {
+    outline: none;
+    border-bottom: 2px solid #088dda;
+    background-color: #6cc5f81e;
+}
+
+.membership-plan {
+    font-weight: 700;
+}
+
+.join-btn {
+    color: yellow;
+    background-color: rgba(22, 65, 80, 0.9);
+    border: none;
+    height: 4rem;
+    width: 100%;
+}
+
+.join-btn:hover {
+    background-color: #0B7AB8;
+}
+
+/* thankyou page */
+#thanks-main {
+    display: block;
+    align-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.thanks {
+    align-items: center;
+    align-self: center;
+}
+
 /*fonts*/
 main p {
     text-align: center;
