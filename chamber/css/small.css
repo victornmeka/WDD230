@@ -415,7 +415,7 @@ form {
 }
 
 .asterik {
-    color: red;
+    color: rgb(127, 52, 52);
     font-weight: bolder;
 }
 
@@ -462,6 +462,10 @@ label {
 
 .membership-plan {
     font-weight: 700;
+}
+
+.membership-plan h3 {
+    background-color: rgba(8, 59, 89, 0.5);
 }
 
 .join-btn {

@@ -80,25 +80,25 @@
                 <br>Join today and get a special discount.
             </p>
             <form class="text join-form" method="GET" action="thankyou.html">
-                <fieldset>
+                <fieldset class="child">
                     <legend>Basic Information</legend>
                     <label class="block-text">First Name<span class="asterik">*</span>
                         <input class="block-input" type="text" name="fname" required></label>
                     <label class="block-text">Last Name<span class="asterik">*</span>
                         <input class="block-input" type="text" name="lname" required></label>
                     <label class="block-text">Business Position
-                        <input class="block-input" type="text" name="Position"
-                            title="Can only include alpha characters, hyphens, and spaces and must contain a minimum of 7 characters"
-                            pattern="[A-Za-z -]{7,}"></label>
+                        <input class="block-input" type="text" name="Position" required></label>
                     <label class="block-text">Email<span class="asterik">*</span>
                         <input placeholder="example@email.com" class="block-input" type="email" name="email"
                             required></label>
                     <label class="block-text">Telephone<span class="asterik">*</span>
                         <input class="block-input" type="tel" name="phone" required></label>
                     <label class="block-text">Business Name/Title<span class="asterik">*</span>
-                        <input class="block-input" name="business" type="text" required></label>
+                        <input class="block-input" name="business" type="text"
+                            title="Can only include alpha characters, hyphens, and spaces and must contain a minimum of 7 characters"
+                            pattern="[A-Za-z -]{7,}" required></label>
                 </fieldset>
-                <div class="membership-plan">
+                <div class="membership-plan child">
                     <h3>Gold : 50000 Naira per year</h3>
                     <ul>
                         <li>Discounted Yearly Vacation/Country Tour.</li>
@@ -146,7 +146,7 @@
                     <label class="block-radio"><input type="radio" name="membership" value="gold"> Gold
                         Membership</label>
                 </fieldset>
-                <label class="block-text">
+                <label class="block-text child1">
                     Business Description
                     <textarea id="description" class="block-input"></textarea>
                 </label>

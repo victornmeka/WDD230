@@ -150,5 +150,18 @@
 
     }
 
+    form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 
+    }
+
+    form .child {
+        flex: 25%;
+    }
+
+    form .child1 {
+        flex: 75%;
+    }
 }
