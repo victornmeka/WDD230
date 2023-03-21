@@ -1,0 +1,67 @@
+{
+    "businesses": [
+        {
+            "name": "Logistix",
+            "address": "Ajah, Lagos, Nigeria.",
+            "number": "09012131415",
+            "website": "https://Logistix.com",
+            "logo": "images/logistix.jpg"
+        },
+        {
+            "name": "Tuale",
+            "address": "AJ, Lagos, Nigeria.",
+            "number": "09011223344",
+            "website": "https://Tuale.com",
+            "logo": "images/tuale.jpg"
+        },
+        {
+            "name": "National art Theatre",
+            "address": "Ikeja, Lagos, Nigeria.",
+            "number": "090-XXX-XXX-X",
+            "website": "https://mrbiggs.com.ng",
+            "logo": "images/mrbiggslogo.png"
+        },
+        {
+            "name": "SendBeta",
+            "address": "Ikeja, Lagos, Nigeria.",
+            "number": "07035442047",
+            "website": "https://sendbeta.com",
+            "logo": "images/sendbeta.png"
+        },
+        {
+            "name": "Rosemus Pharmacy",
+            "address": "Olodi-Apapa, Lagos, Nigeria.",
+            "number": "09022360056",
+            "website": "https://rosemus.com",
+            "logo": "images/rosemus.jpg"
+        },
+        {
+            "name": "Eko Classic Records",
+            "address": "Ikoyi, Lagos, Nigeria.",
+            "number": "090-XXX-XXX-23",
+            "website": "https://ekoclasssics.com",
+            "logo": "images/record.jpg"
+        },
+        {
+            "name": "One Ajegunle",
+            "address": "AJ, Lagos, Nigeria.",
+            "number": "09022335544",
+            "website": "https://oneajegunle.com",
+            "logo": "images/oneajegunle.jpg"
+        },
+        {
+            "name": "Kent Koncept",
+            "address": "Apapa, Lagos, Nigeria.",
+            "number": "09000112233",
+            "website": "https://kk.com",
+            "logo": "images/kk.png"
+        },
+        {
+            "name": "Agege Bread",
+            "address": "AJ, Lagos, Nigeria.",
+            "number": "09090909090",
+            "website": "https://agege.com",
+            "logo": "images/agege.jpg"
+        }
+    ]
+}

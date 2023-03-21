@@ -493,6 +493,122 @@ label {
     align-self: center;
 }
 
+/*Directory Code*/
+.directory-h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.basic-grid {
+    display: inline;
+    margin-top: 0;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.companyGrid,
+.companyList {
+    color: black;
+    padding: 1em;
+    margin-bottom: 15PX;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.company-phone {
+    margin-top: 5px;
+}
+
+.company-site {
+    text-decoration: none;
+    color: black;
+}
+
+.companyGrid {
+
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.companyCard {
+    background-color: yellow
+}
+
+.companyGrid>* {
+    border-radius: 5px 15px;
+    border: 2px solid black;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.companyGrid>*:hover {
+    box-shadow: 0 0 0 10px #0B7AB8;
+}
+
+.list,
+.grid {
+    width: 100px;
+    color: black;
+    padding: 0.6em;
+    font-size: 1.3em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    border: none;
+    height: 4rem;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.list:hover {
+    background-color: #0B7AB8;
+}
+
+.grid:hover {
+    background-color: #0B7AB8;
+}
+
+
+.companyList div {
+    padding: 0.1em;
+
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.companyList>:nth-child(even):hover,
+.companyList>:nth-child(odd):hover {
+    background-color: rgba(22, 65, 80, 0.8);
+}
+
+.companyList>:nth-child(even),
+.companyList>*:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+
+
+.website-div {
+    word-wrap: break-word;
+}
+
+.companyGrid .website-div a:visited {
+    color: blue;
+}
+
+.companyList .website-div a:visited,
+.companyList .website-div a {
+    color: black;
+}
+
 /*fonts*/
 main p {
     text-align: center;

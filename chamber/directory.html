@@ -1,11 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Eko Chambers of Commerce | Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Directory Page</title>
 
         <link rel="icon" href="hp-favicon.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,80 +62,29 @@
                 <nav>
                     <button id="navigation-button"><span>&#8801;</span><span>x</span></button>
                     <ul id="nav-list">
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
 
-
         </header>
 
-        <!-- CONTENT HERE -->
-        <main>
-            <section class="hero">
-                <picture class="hero-image">
-                    <source srcset="images/wdd230-org-assets/largeimg.jpg" media="(min-width: 1028px)">
-                    <source srcset="images/wdd230-org-assets/mediumimg.jpg" media="(min-width: 560px)">
-                    <img src="images/wdd230-org-assets/smallimg.jpg" alt="hero-image">
-                </picture>
-                <h1>Welcome To Eko </h1>
-                <div class="joinButton"><a href="#">Join The Chamber</a></div>
-            </section>
-            <section class="event">
-                <h2>Ribbon Cutting</h2>
-                <h3>African Fashion House ✂</h3>
-                <p>Join us for the grand opening of the African Fashion House, Thursday at
-                    1:00p.m.<span><a href="#" target="blank"> more
-                            details...</a></span></p>
-            </section>
-            <div class="weather">
-                <h2>Weather</h2>
-                <img src="images/cloud.jpg" alt="cloud icon">
-                <h3 class="temp"><span id="temp-value">45</span>&#xb0;F</h3>
-                <p id="weather-condition">Partly Cloudy</p>
-                <hr>
-                <div>
-                    <p class="windspeed">Wind Speed: <span id="windspeed-value">4</span> mph</p>
-                    <p class="wind-chill">Wind Chill: <span id="windchill"></span><span id="windchillValue"></span>
-                    </p>
-                </div>
+        <h1 class="directory-h1">Chamber Directory</h1>
+
+        <!--Main-->
+        <main class="basic-grid directory-grid">
+            <div class="buttons">
+                <button class="list">List 📃</button>
+                <button class="grid">Grid ⏹️</button>
             </div>
 
-            <section class="news-release">
-                <h2>News Release</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam eligendi quod consectetur! Fuga
-                    dignissimos dolore fugiat. Deleniti fuga, temporibus dolor dolorem eligendi laudantium magni
-                    explicabo eum quod voluptate, eos iste.</p>
-            </section>
-            <div class="join">
-                <div class="joinButton"><a href="#">Join Us!</a></div>
-                <p>Discover how to join the Eko Chamber of Commerce and how it will benefit your organization! </p>
-
-            </div>
-
-            <section id="spotlight-section">
-                <div class="spotlight1">
-                    <h2>Eko Classic Records</h2>
-                    <a href="#"><img src="./images/record.jpg" alt="image of a Record"></a>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</P>
-                </div>
-                <div class="spotlight2">
-                    <h2>Swift Logistix</h2>
-                    <a href="#"><img src="./images/logistix.jpg" alt="Logistix company logo"></a>
-                    <p>Lorem ipsum dolor sit amet consectetur adi</p>
-                </div>
-                <div class="spotlight3">
-                    <h2>Tuale</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque culpa quae ar.</p>
-                </div>
-            </section>
+            <div class="company-info companyGrid"></div>
         </main>
 
-
-        <!-- FOOTER HERE -->
         <footer>
             <div class="footer1">
                 <div class="footer-logo">
@@ -156,6 +105,7 @@
                 </div>
             </div>
 
+
             <div class="footer2">
                 <p>&copy;<span id="year"></span> Eko Chamber</p>
                 <p>Victor Nmeka</p>
@@ -165,9 +115,9 @@
                 </div>
             </div>
         </footer>
-
+        <script src="./scripts/directory.js"></script>
         <script src="./scripts/script.js"></script>
-        <script src="./scripts/windchill.js"></script>
+        <script src="../lesson-7/scripts/main.js"></script>
     </body>
 
 </html>
