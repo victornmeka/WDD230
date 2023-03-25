@@ -1,5 +1,5 @@
 //create an "url" variable
-const url = "http://api.openweathermap.org/data/2.5/weather?q=Lagos,NG&units=imperial&id=524901&appid=5fe9959182c4e0e3b9a6e2414cd1f539";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Lagos,NG&units=imperial&id=524901&appid=5fe9959182c4e0e3b9a6e2414cd1f539";
 // select HTML elements in the document
 
 let WeatherIcon = document.querySelector('#weather-icon');
