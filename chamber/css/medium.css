@@ -35,7 +35,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row: 3;
-        background-color: yellow;
 
     }
 

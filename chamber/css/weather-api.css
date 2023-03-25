@@ -3,9 +3,6 @@
 body {
     text-align: center;
     word-wrap: break-word;
-    margin: 5%;
-    margin-right: 20%;
-    margin-left: 20%;
 }
 
 body h1 {
@@ -36,4 +33,13 @@ body img {
 
 p {
     font-size: 1.2em;
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        margin: 5%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
 }

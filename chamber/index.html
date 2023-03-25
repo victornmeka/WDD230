@@ -92,16 +92,21 @@
                             details...</a></span></p>
             </section>
             <div class="weather">
-                <h2>Weather</h2>
-                <img src="images/cloud.jpg" alt="cloud icon">
-                <h3 class="temp"><span id="temp-value">45</span>&#xb0;F</h3>
-                <p id="weather-condition">Partly Cloudy</p>
-                <hr>
-                <div>
-                    <p class="windspeed">Wind Speed: <span id="windspeed-value">4</span> mph</p>
-                    <p class="wind-chill">Wind Chill: <span id="windchill"></span><span id="windchillValue"></span>
-                    </p>
+                <div class="weather-info">
+                    <img src="" id="weather-icon" alt="weather icon">
+                    <h3><span id="temp-value"></span>&deg;F</h3>
                 </div>
+                <p id="weather-desc"></p>
+                <hr>
+                <div class="wind-speed">
+                    <p>Wind Speed: </p>
+                    <p><span id="windspeed-value"></span>mph</p>
+                </div>
+                <div class="wind-chill">
+                    <p>Wind Chill:</p>
+                    <p id="windchill-value"> </p>
+                </div>
+
             </div>
 
             <section class="news-release">
@@ -151,7 +156,8 @@
                     <div class="contact-info">(+234) 9133-9900</div>
                     <!-- location map:-->
                     <div class="location">
-                        <a href="#" target="blank">📍 Location Map</a>
+                        <a href="https://www.google.com/maps/d/edit?mid=1gPFuTc_voFKUzQf-4daa-B3kJMNQ-nk&usp=sharing"
+                            target="blank">📍 Location Map</a>
                     </div>
                 </div>
             </div>

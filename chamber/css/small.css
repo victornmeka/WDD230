@@ -128,7 +128,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 1px;
+    row-gap: 2px;
     padding: 0px;
     margin: 10px 10px 80px 10px;
     font-size: .7rem;
@@ -147,7 +147,7 @@ main .hero {
 main .news-release {
     grid-row: 4;
     border: 1px solid rgb(22, 65, 80);
-    padding: 50px;
+    padding: 10px;
     background-color: yellow;
 }
 
@@ -161,19 +161,22 @@ main .news-release {
 
 #spotlight-section .spotlight1 {
     border: 1px solid rgb(22, 65, 80);
-    padding: 50px;
+    padding: 20px;
     margin: 15px 20px 10px 20px;
+    align-items: center;
 }
 
 #spotlight-section .spotlight2 {
     border: 1px solid rgb(22, 65, 80);
-    padding: 50px;
+    padding: 20px;
     margin: 0px 20px 10px 20px;
+    align-items: center;
 }
 
 #spotlight-section .spotlight3 {
     border: 1px solid rgb(22, 65, 80);
-    padding: 50px;
+    padding: 20px;
+    align-items: center;
     margin: 0px 20px 10px 20px;
     display: none;
 }
@@ -202,13 +205,16 @@ main .weather {
     background-color: yellow;
 }
 
+main .weather h3 strong {
+    color: blue;
+}
+
 main .weather {
     width: auto;
 }
 
 main .weather img {
     width: 20%;
-    height: 20%;
     margin-left: 35%;
 }
 
@@ -299,7 +305,6 @@ main section picture.hero-image {
 
 main section picture.hero-image img {
     width: 100%;
-    height: 100%;
     z-index: 1;
 }
 
@@ -348,12 +353,10 @@ main section picture.hero-image img {
 
 #spotlight-section .spotlight2 img {
     width: 70%;
-    height: 50%;
 }
 
 #spotlight-section .spotlight1 img {
     width: 70%;
-    height: 50%;
 }
 
 /*Discover Page*/
