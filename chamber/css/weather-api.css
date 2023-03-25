@@ -1,0 +1,45 @@
+/*CSS for WeatherAPI*/
+
+body {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+body h1 {
+    background-color: yellow;
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+body p {
+    font-size: 1.6em;
+}
+
+body p strong {
+    color: blue;
+}
+
+body figcaption {
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+body img {
+    padding: 2em;
+    border: 2px solid black;
+    background-color: skyblue;
+    box-shadow: 0 5px 2px -2px gray;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        margin: 5%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+}
