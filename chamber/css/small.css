@@ -218,6 +218,7 @@ main .weather img {
     margin-left: 35%;
 }
 
+
 footer {
     background-color: yellow;
     color: black;
@@ -610,6 +611,23 @@ label {
 .companyList .website-div a:visited,
 .companyList .website-div a {
     color: black;
+}
+
+/*contact page*/
+.contact-us-info h2 {
+    background-color: #064d76;
+    padding: 15px;
+}
+
+#contact-us-btn {
+    background-color: yellow;
+    border: none;
+    height: 4rem;
+    width: 100%;
+}
+
+#contact-us-btn:hover {
+    background-color: rgba(22, 65, 80, 0.9);
 }
 
 /*fonts*/

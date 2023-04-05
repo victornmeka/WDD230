@@ -1,11 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Eko Chambers of Commerce | Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
 
         <link rel="icon" href="hp-favicon.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,74 +62,49 @@
                 <nav>
                     <button id="navigation-button"><span>&#8801;</span><span>x</span></button>
                     <ul id="nav-list">
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li><a href="./join.html">Join</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
 
-
         </header>
 
-        <!-- CONTENT HERE -->
-        <main>
-            <section class="hero">
-                <picture class="hero-image">
-                    <source srcset="images/large-long-corridor-showcase.jpg" media="(min-width: 1028px)">
-                    <source srcset="images/medium-long-corridor-showcase.jpg" media="(min-width: 560px)">
-                    <img src="images/small-long-corridor-showcase.jpg" alt="hero-image">
-                </picture>
-                <h1>Welcome To Eko </h1>
-                <div class="joinButton"><a href="#">Join The Chamber</a></div>
-            </section>
-            <section class="event">
-                <h2>Ribbon Cutting</h2>
-                <h3>African Fashion House ✂</h3>
-                <p>Join us for the grand opening of the African Fashion House, Thursday at
-                    1:00p.m.<span><a href="#" target="blank"> more
-                            details...</a></span></p>
-            </section>
-            <div class="weather">
-                <div class="weather-info">
-                    <img src="" id="weather-icon" alt="weather icon">
-                    <h3><span id="temp-value"></span>&deg;F</h3>
+        <div class="main-join-area">
+            <h2>Contact Us</h2>
+
+            <form class="text join-form" method="GET" action="thankyou.html">
+                <fieldset class="child">
+                    <legend>Contact Form</legend>
+                    <label class="block-text">First Name<span class="asterik">*</span>
+                        <input class="block-input" type="text" name="fname" required></label>
+                    <label class="block-text">Last Name<span class="asterik">*</span>
+                        <input class="block-input" type="text" name="lname" required></label>
+                    <label class="block-text">Email<span class="asterik">*</span>
+                        <input placeholder="example@email.com" class="block-input" type="email" name="email"
+                            required></label>
+                    <label class="block-text">Telephone<span class="asterik">*</span>
+                        <input class="block-input" type="tel" name="phone" required></label>
+                    <label class="block-text child1">
+                        Enquiries/Comment
+                        <textarea id="description" class="block-input"></textarea>
+                    </label>
+                    <input id="contact-us-btn" type="submit" value="Contact US">
+                </fieldset>
+
+
+                <div class="membership-plan child contact-us-info">
+                    <h2>Contact Details </h2>
+                    <p>Address: Aj,Lagos State, Nigeria</p>
+                    <p>Operating Hours: Monday – Friday : 9:00 a.m. to 4:30 p.m.</p>
+                    <p>Email: info@ekochambers.com</p>
+                    <p>Phone: +234- 9133-9900</p>
                 </div>
-                <p id="weather-desc"></p>
-                <hr>
-                <div class="wind-speed">
-                    <p>Wind Speed: </p>
-                    <p><span id="windspeed-value"></span>mph</p>
-                </div>
-                <div class="wind-chill">
-                    <p>Wind Chill:</p>
-                    <p id="windchill-value"> </p>
-                </div>
+        </div>
 
-            </div>
-
-            <section class="news-release">
-                <h2>News Release</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam eligendi quod consectetur! Fuga
-                    dignissimos dolore fugiat. Deleniti fuga, temporibus dolor dolorem eligendi laudantium magni
-                    explicabo eum quod voluptate, eos iste.</p>
-            </section>
-            <div class="join">
-                <div class="joinButton"><a href="#">Join Us!</a></div>
-                <p>Discover how to join the Eko Chamber of Commerce and how it will benefit your organization! </p>
-
-            </div>
-
-            <section id="spotlight-section">
-                <div class="spotlight1" id="spotlight1"></div>
-                <div class="spotlight2" id="spotlight2"></div>
-                <div class="spotlight3" id="spotlight3"></div>
-            </section>
-        </main>
-
-
-        <!-- FOOTER HERE -->
         <footer>
             <div class="footer1">
                 <div class="footer-logo">
@@ -145,11 +120,11 @@
                     <div class="contact-info">(+234) 9133-9900</div>
                     <!-- location map:-->
                     <div class="location">
-                        <a href="https://www.google.com/maps/d/edit?mid=1gPFuTc_voFKUzQf-4daa-B3kJMNQ-nk&usp=sharing"
-                            target="blank">📍 Location Map</a>
+                        <a href="#" target="blank">📍 Location Map</a>
                     </div>
                 </div>
             </div>
+
 
             <div class="footer2">
                 <p>&copy;<span id="year"></span> Eko Chamber</p>
@@ -160,10 +135,9 @@
                 </div>
             </div>
         </footer>
-
+        <script src="./scripts/directory.js"></script>
         <script src="./scripts/script.js"></script>
-        <script src="./scripts/windchill.js"></script>
-        <script src="./scripts/spotlights.js"></script>
+        <script src="../lesson-7/scripts/main.js"></script>
     </body>
 
 </html>

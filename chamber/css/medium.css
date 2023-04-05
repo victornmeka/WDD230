@@ -80,6 +80,8 @@
         margin-left: 3px;
     }
 
+
+
     .footer1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 2fr;
@@ -159,5 +161,12 @@
     .companyList div {
         padding: 0.75em;
     }
+
+    /*contact page*/
+    .contact-us-info {
+        padding: 20px;
+    }
+
+
 
 }

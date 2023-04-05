@@ -5,63 +5,80 @@
             "address": "Ajah, Lagos, Nigeria.",
             "number": "09012131415",
             "website": "https://Logistix.com",
-            "logo": "images/logistix.jpg"
+            "logo": "images/logistix.jpg",
+            "membershiplevel": "gold"
         },
         {
             "name": "Tuale",
             "address": "AJ, Lagos, Nigeria.",
             "number": "09011223344",
             "website": "https://Tuale.com",
-            "logo": "images/tuale.jpg"
+            "logo": "images/tuale.jpg",
+            "membershiplevel": "silver"
+
         },
         {
             "name": "Mr Biggs.",
             "address": "Ikeja, Lagos, Nigeria.",
             "number": "090-XXX-XXX-X",
             "website": "https://mrbiggs.com.ng",
-            "logo": "images/mrbiggslogo.png"
+            "logo": "images/mrbiggslogo.png",
+            "membershiplevel": "gold"
+
         },
         {
             "name": "SendBeta",
             "address": "Ikeja, Lagos, Nigeria.",
             "number": "07035442047",
             "website": "https://sendbeta.com",
-            "logo": "images/sendbeta.png"
+            "logo": "images/sendbeta.png",
+            "membershiplevel": "bronze"
+
         },
         {
             "name": "Rosemus Pharmacy",
             "address": "Olodi-Apapa, Lagos, Nigeria.",
             "number": "09022360056",
             "website": "https://rosemus.com",
-            "logo": "images/rosemus.jpg"
+            "logo": "images/rosemus.jpg",
+            "membershiplevel": "gold"
+
         },
         {
             "name": "Eko Classic Records",
             "address": "Ikoyi, Lagos, Nigeria.",
             "number": "090-XXX-XXX-23",
             "website": "https://ekoclasssics.com",
-            "logo": "images/record.jpg"
+            "logo": "images/record.jpg",
+            "membershiplevel": "gold"
+            
         },
         {
             "name": "One Ajegunle",
             "address": "AJ, Lagos, Nigeria.",
             "number": "09022335544",
             "website": "https://oneajegunle.com",
-            "logo": "images/oneajegunle.jpg"
+            "logo": "images/oneajegunle.jpg",
+            "membershiplevel": "silver"
+
         },
         {
             "name": "Kent Koncept",
             "address": "Apapa, Lagos, Nigeria.",
             "number": "09000112233",
             "website": "https://kk.com",
-            "logo": "images/kk.png"
+            "logo": "images/kk.png",
+            "membershiplevel": "gold"
+
         },
         {
             "name": "Agege Bread",
             "address": "AJ, Lagos, Nigeria.",
             "number": "09090909090",
             "website": "https://agege.com",
-            "logo": "images/agege.jpg"
+            "logo": "images/agege.jpg",
+            "membershiplevel": "bronze"
+
         }
     ]
 }
