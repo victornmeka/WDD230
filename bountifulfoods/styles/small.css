@@ -117,6 +117,11 @@ footer {
 
 }
 
+.fruits-images {
+    display: flex;
+    justify-content: center;
+}
+
 .logo-footer,
 .social-img {
     max-width: 90px;
